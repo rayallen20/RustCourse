@@ -1,0 +1,8 @@
+[workspace]
+
+# 为工作区添加成员
+# 此处添加的成员是相对路径 即成员相对于Cargo.toml文件的路径
+members = [
+    "adder",
+    "add_one",
+]

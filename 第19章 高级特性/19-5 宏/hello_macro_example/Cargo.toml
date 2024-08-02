@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    # 该lib crate用于定义HelloMacro trait
+    "hello_macro",
+    # 该lib crate用于定义HelloMacro trait的derive宏(宏的定义需要单独放在一个crate中)
+    "hello_macro_derive",
+    # 该 binary crate 用于测试hello_macro和hello_macro_derive
+    "pancakes"
+]
