@@ -1,0 +1,6 @@
+[package]
+name = "result_in_test_fn_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

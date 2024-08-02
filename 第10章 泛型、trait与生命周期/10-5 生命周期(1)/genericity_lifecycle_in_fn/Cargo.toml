@@ -1,0 +1,6 @@
+[package]
+name = "genericity_lifecycle_in_fn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

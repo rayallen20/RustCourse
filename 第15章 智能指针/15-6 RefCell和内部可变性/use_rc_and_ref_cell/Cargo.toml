@@ -1,0 +1,6 @@
+[package]
+name = "use_rc_and_ref_cell"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

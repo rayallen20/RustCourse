@@ -1,0 +1,6 @@
+[package]
+name = "print_in_test_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

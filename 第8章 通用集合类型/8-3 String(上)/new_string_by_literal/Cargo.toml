@@ -1,0 +1,6 @@
+[package]
+name = "new_string_by_literal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

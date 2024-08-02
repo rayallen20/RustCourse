@@ -1,0 +1,19 @@
+pub fn add_two(a: i32) -> i32 {
+    internal_adder(a, 2)
+}
+
+// 私有函数
+fn internal_adder(a: i32, b: i32) -> i32 {
+    a + b
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        // 调用父模块的私有函数
+        assert_eq!(4, internal_adder(2, 2));
+    }
+}

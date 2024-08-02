@@ -1,0 +1,6 @@
+[package]
+name = "define_trait"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

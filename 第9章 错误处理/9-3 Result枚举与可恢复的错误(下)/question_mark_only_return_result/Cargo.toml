@@ -1,0 +1,6 @@
+[package]
+name = "question_mark_only_return_result"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

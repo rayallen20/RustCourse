@@ -1,0 +1,17 @@
+[package]
+name = "hello_macro_derive"
+version = "0.1.0"
+edition = "2021"
+
+# lib配置段:用户指定该Rust包作为lib crate时的一些配置选项
+# 通常用于指定库的名称、路径等
+[lib]
+# proc-macro选项: 用于指定该lib crate是一个过程宏
+# 开启该选项时,该库将会被编译为一个过程宏库
+proc-macro = true
+
+[dependencies]
+# 本包用于将Rust代码转化为可以进一步操作的数据结构(抽象语法树)
+syn = "0.14.4"
+# 本包用于将抽象语法树转化为Rust代码
+quote = "0.6.3"

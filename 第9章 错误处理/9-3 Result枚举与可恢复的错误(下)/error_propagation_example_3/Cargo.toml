@@ -1,0 +1,6 @@
+[package]
+name = "error_propagation_example_3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

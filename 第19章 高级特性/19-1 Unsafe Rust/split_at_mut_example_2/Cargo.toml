@@ -1,0 +1,6 @@
+[package]
+name = "split_at_mut_example_2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

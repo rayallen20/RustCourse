@@ -1,0 +1,6 @@
+[package]
+name = "use_nested_path_2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

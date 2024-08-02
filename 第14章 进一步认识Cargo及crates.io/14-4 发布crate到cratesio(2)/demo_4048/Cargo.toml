@@ -1,0 +1,8 @@
+[package]
+name = "demo_4048"
+version = "0.2.0"
+edition = "2021"
+description = "A demo project for Rust. New version."
+license = "MIT OR Apache-2.0"
+
+[dependencies]

@@ -1,0 +1,6 @@
+[package]
+name = "different_method_and_struct_genericity"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
